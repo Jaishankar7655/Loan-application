@@ -51,8 +51,5 @@ class ViewLoansSerializer(serializers.ModelSerializer):
         fields = ['loan_id', 'loan_amount', 'interest_rate', 'monthly_installment', 'repayments_left']
 
     def get_repayments_left(self, obj):
-        # Assuming tenure - emis_paid_on_time? Or based on date?
-        # Prompt doesn't specify how to calculate repayments left.
-        # "No of EMIs left".
-        # Assuming tenure is total months.
+    
         return obj.tenure - obj.emis_paid_on_time
