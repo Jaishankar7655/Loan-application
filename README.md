@@ -50,7 +50,7 @@ The fastest way to run the application on Windows:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Jaishankar7655/Loan-application.git
    cd Task-alemeno
    ```
 
