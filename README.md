@@ -180,20 +180,19 @@ python manage.py shell
 ## Project Structure
 
 ```
-Task-alemeno/
-├── backend/
-│   ├── api/             # Main application logic
-│   ├── core/            # Project settings
-│   ├── load_excel_data.py # Data loading script
-│   └── requirements.txt # Python dependencies
-├── frontend/
-│   ├── src/
-│   │   ├── components/  # React components (Register, Dashboard)
-│   │   └── App.jsx      # Main frontend logic
-│   └── tailwind.config.js
-├── customer_data.xlsx   # Sample data
-├── loan_data.xlsx       # Sample data
-└── run_dev.bat          # Quick start script
+backend/
+├── api/             # Main application logic
+├── core/            # Project settings
+├── load_excel_data.py # Data loading script
+└── requirements.txt # Python dependencies
+frontend/
+├── src/
+│   ├── components/  # React components (Register, Dashboard)
+│   └── App.jsx      # Main frontend logic
+└── tailwind.config.js
+customer_data.xlsx   # Sample data
+loan_data.xlsx       # Sample data
+run_dev.bat          # Quick start script
 ```
 
 ## Troubleshooting
